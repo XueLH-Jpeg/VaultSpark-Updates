@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.4-beta.1",
-  "notes": "新增传输读写限速新手教程；新增 GitHub 线上更新通道、传输限速、任务日志与 PDF/Excel 交付报告，并优化素材管理与界面稳定性。",
-  "publishedAt": "2026-08-02T15:52:35.545Z",
+  "version": "1.1.4-beta.2",
+  "notes": "修复继续拷贝未按原任务规则自动分类的问题；追加素材会复用原目录规则，并根据任务记录与现有文件最大序号连续重命名。",
+  "publishedAt": "2026-08-04T02:20:06.000Z",
   "platforms": {
     "darwin-arm64": {
-      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.1/VaultSpark-1.1.4-beta.1-arm64.dmg",
-      "fileName": "VaultSpark-1.1.4-beta.1-arm64.dmg",
-      "size": 172248576,
-      "sha256": "98fb067d23292a17c0f4a72e56f468f1a525134657cd7194946ff15c2a6d9058"
+      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.2/VaultSpark-1.1.4-beta.2-arm64.dmg",
+      "fileName": "VaultSpark-1.1.4-beta.2-arm64.dmg",
+      "size": 172238848,
+      "sha256": "07403157bd50f41769c6337994c50232bc1be235c48db12709fa4d4b88126c82"
     },
     "win32-x64": {
-      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.1/VaultSpark-1.1.4-beta.1-Windows-x64-Setup.exe",
-      "fileName": "VaultSpark-1.1.4-beta.1-Windows-x64-Setup.exe",
-      "size": 180973708,
-      "sha256": "0581e1b404c08bf723aa1587269a12928b04dabc7fb5e3b5d83e92f554dc2328"
+      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.2/VaultSpark-1.1.4-beta.2-Windows-x64-Setup.exe",
+      "fileName": "VaultSpark-1.1.4-beta.2-Windows-x64-Setup.exe",
+      "size": 180974734,
+      "sha256": "d773a08a4fceab559a16c820ad5bb1ecb047dcc1dcfe6f27024adb894bebda82"
     }
   }
 }
