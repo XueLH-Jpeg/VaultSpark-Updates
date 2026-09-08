@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "product": "VaultSpark",
+  "websiteUrl": "https://xuelh.cn/software/vaultspark",
+  "releases": [
+    {
+      "version": "1.2.26",
+      "status": "published",
+      "publishedAt": "2026-09-08T10:39:04Z",
+      "summary": "素材排序与新版本提醒",
+      "changes": [
+        "新建任务和继续导入支持按文件名称、修改时间、文件大小升序或降序排列；预整理列表、本次拷贝和开启自动命名时的编号顺序一致。",
+        "时间取自文件属性中的修改时间，不等同于拍摄时间；缺失时间或大小的素材排在末尾，相同时间或大小按名称稳定排列。",
+        "返回设置修改排序后，保留手动目录、归类和素材选择；继续导入跳过重复素材后连续编号。中断恢复沿用已确认的账本顺序、目录和编号。",
+        "防止扫描或预检期间切换排序、模板或其他任务设置后，旧结果覆盖新设置或被误提交。",
+        "软件检测到新版本后显示提示，可从入口查看更新说明，支持稍后查看；不自动下载或安装。",
+        "客户端与官网使用统一发布记录，官网软件页可通过“更新日志”入口查看历史版本说明。"
+      ],
+      "warnings": [
+        "升级前请结束正在拷贝的任务并退出旧版。安装版保留应用身份与用户数据目录，选择原安装位置即可覆盖升级。",
+        "旧版未完成任务需核对原素材后重新选择来源追加，不会直接按旧账本自动续传。",
+        "Windows 安装包尚未进行数字签名，系统可能提示“未知发布者”。",
+        "免安装版不替换已安装客户端；需要升级已安装版本时，请使用 Setup.exe。"
+      ],
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.26",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.26/VaultSpark-1.2.26-Windows-x64-Setup.exe",
+          "fileName": "VaultSpark-1.2.26-Windows-x64-Setup.exe",
+          "size": 190429338,
+          "sha256": "b4b9cc5dc35959ee51e8c9cdf2cd2d1dfe20ad06d6682e8a12bf447d6de21065",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.2.25",
+      "status": "published",
+      "publishedAt": "2026-09-07T04:31:24Z",
+      "summary": "拷贝可靠性与界面体验修复",
+      "changes": [
+        "修复多目标去重与累计复检，恢复时核查真实来源和设备身份；复制失败后等待全部写入结束。",
+        "修复节点与连线快速拖动时脱节，补齐松手、取消和失焦时的交互清理。",
+        "统一开关与状态标签居中、浅色关闭和删除按钮颜色，突出高级设置分区并改善长标题与图谱自适应。",
+        "媒体完整性质检在新任务中默认关闭，开启时提示“拷贝时间会延长”；关闭不影响哈希校验。",
+        "修复新建、追加导入、日期输入、焦点循环和提交错误反馈。"
+      ],
+      "warnings": [
+        "升级前请结束正在拷贝的任务并退出旧版。旧版未完成任务需核对原素材后重新选择来源追加，不会直接按旧账本自动续传。",
+        "Windows 安装包尚未进行数字签名，系统可能提示“未知发布者”。"
+      ],
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.25",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.25/VaultSpark-1.2.25-Windows-x64-Setup.exe",
+          "fileName": "VaultSpark-1.2.25-Windows-x64-Setup.exe",
+          "size": 190431196,
+          "sha256": "cca8f83804a41d7c3075374e4708cda78c10fa2ed0edface98f5608c26b8184a",
+          "signed": false
+        }
+      }
+    }
+  ],
+  "upcoming": []
+}

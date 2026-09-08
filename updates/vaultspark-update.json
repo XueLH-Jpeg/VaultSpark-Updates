@@ -1,20 +1,21 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.4-beta.2",
-  "notes": "修复继续拷贝未按原任务规则自动分类的问题；追加素材会复用原目录规则，并根据任务记录与现有文件最大序号连续重命名。",
-  "publishedAt": "2026-08-04T02:20:06.000Z",
+  "version": "1.2.26",
+  "notes": "素材排序与新版本提醒\n\n- 新建任务和继续导入支持按文件名称、修改时间、文件大小升序或降序排列；预整理列表、本次拷贝和开启自动命名时的编号顺序一致。\n- 时间取自文件属性中的修改时间，不等同于拍摄时间；缺失时间或大小的素材排在末尾，相同时间或大小按名称稳定排列。\n- 返回设置修改排序后，保留手动目录、归类和素材选择；继续导入跳过重复素材后连续编号。中断恢复沿用已确认的账本顺序、目录和编号。\n- 防止扫描或预检期间切换排序、模板或其他任务设置后，旧结果覆盖新设置或被误提交。\n- 软件检测到新版本后显示提示，可从入口查看更新说明，支持稍后查看；不自动下载或安装。\n- 客户端与官网使用统一发布记录，官网软件页可通过“更新日志”入口查看历史版本说明。\n\n升级提醒\n- 升级前请结束正在拷贝的任务并退出旧版。安装版保留应用身份与用户数据目录，选择原安装位置即可覆盖升级。\n- 旧版未完成任务需核对原素材后重新选择来源追加，不会直接按旧账本自动续传。\n- Windows 安装包尚未进行数字签名，系统可能提示“未知发布者”。\n- 免安装版不替换已安装客户端；需要升级已安装版本时，请使用 Setup.exe。",
+  "publishedAt": "2026-09-08T10:39:04Z",
+  "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.26",
+  "changelogUrl": "https://xuelh.cn/software/vaultspark#changelog",
   "platforms": {
-    "darwin-arm64": {
-      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.2/VaultSpark-1.1.4-beta.2-arm64.dmg",
-      "fileName": "VaultSpark-1.1.4-beta.2-arm64.dmg",
-      "size": 172238848,
-      "sha256": "07403157bd50f41769c6337994c50232bc1be235c48db12709fa4d4b88126c82"
-    },
     "win32-x64": {
-      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.1.4-beta.2/VaultSpark-1.1.4-beta.2-Windows-x64-Setup.exe",
-      "fileName": "VaultSpark-1.1.4-beta.2-Windows-x64-Setup.exe",
-      "size": 180974734,
-      "sha256": "d773a08a4fceab559a16c820ad5bb1ecb047dcc1dcfe6f27024adb894bebda82"
+      "version": "1.2.26",
+      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.26/VaultSpark-1.2.26-Windows-x64-Setup.exe",
+      "fileName": "VaultSpark-1.2.26-Windows-x64-Setup.exe",
+      "size": 190429338,
+      "sha256": "b4b9cc5dc35959ee51e8c9cdf2cd2d1dfe20ad06d6682e8a12bf447d6de21065",
+      "signed": false,
+      "notes": "素材排序与新版本提醒\n\n- 新建任务和继续导入支持按文件名称、修改时间、文件大小升序或降序排列；预整理列表、本次拷贝和开启自动命名时的编号顺序一致。\n- 时间取自文件属性中的修改时间，不等同于拍摄时间；缺失时间或大小的素材排在末尾，相同时间或大小按名称稳定排列。\n- 返回设置修改排序后，保留手动目录、归类和素材选择；继续导入跳过重复素材后连续编号。中断恢复沿用已确认的账本顺序、目录和编号。\n- 防止扫描或预检期间切换排序、模板或其他任务设置后，旧结果覆盖新设置或被误提交。\n- 软件检测到新版本后显示提示，可从入口查看更新说明，支持稍后查看；不自动下载或安装。\n- 客户端与官网使用统一发布记录，官网软件页可通过“更新日志”入口查看历史版本说明。\n\n升级提醒\n- 升级前请结束正在拷贝的任务并退出旧版。安装版保留应用身份与用户数据目录，选择原安装位置即可覆盖升级。\n- 旧版未完成任务需核对原素材后重新选择来源追加，不会直接按旧账本自动续传。\n- Windows 安装包尚未进行数字签名，系统可能提示“未知发布者”。\n- 免安装版不替换已安装客户端；需要升级已安装版本时，请使用 Setup.exe。",
+      "publishedAt": "2026-09-08T10:39:04Z",
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.26"
     }
   }
 }
