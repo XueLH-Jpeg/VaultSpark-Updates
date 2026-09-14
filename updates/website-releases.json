@@ -2,21 +2,46 @@
   "schemaVersion": 1,
   "product": "VaultSpark",
   "windows": {
-    "version": "1.2.29",
-    "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.29/VaultSpark-1.2.29-Windows-x64-Setup.exe",
-    "fileName": "VaultSpark-1.2.29-Windows-x64-Setup.exe",
-    "size": 190433034,
-    "sha256": "a48bd541ecc159fa4ec3b849d1c296943b7694d486a7ed22e56db316f3aa4010",
+    "version": "1.2.30",
+    "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.30/VaultSpark-1.2.30-Windows-x64-Setup.exe",
+    "fileName": "VaultSpark-1.2.30-Windows-x64-Setup.exe",
+    "size": 190437508,
+    "sha256": "1bc4f5d8580505cf89357edbc59fa1f669a367044139e16e8574828998794d66",
     "signed": false,
     "platform": "Windows 10/11 x64",
-    "publishedAt": "2026-09-09T13:19:57Z",
-    "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.29"
+    "publishedAt": "2026-09-14T02:14:31Z",
+    "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.30"
   },
   "macos": {
     "platform": "Apple Silicon",
     "status": "preparing"
   },
   "releases": [
+    {
+      "version": "1.2.30",
+      "publishedAt": "2026-09-14T02:14:31Z",
+      "platforms": [
+        "win32-x64"
+      ],
+      "summary": "改善部分电脑上保存任务记录失败、导致导入中断的问题",
+      "changes": [
+        "保存任务记录时，如果文件被其他程序短暂占用，软件会自动等待并重试，减少偶发中断。",
+        "如果记录一直无法保存，会说明问题出在任务记录，并提示检查文件占用、权限或磁盘空间，方便排查。已经拷贝的素材会保留。",
+        "任务历史暂时读不出来时，会保留原有记录，避免已有任务被新记录覆盖。",
+        "改善同时保存多个任务、从列表移除项目时的稳定性，减少记录遗漏或互相覆盖。",
+        "文件持续被占用时，不再反复堆积进度保存请求，避免任务迟迟停不下来。",
+        "任务历史读取失败时，软件仍可打开并显示原因；处理后可点击「刷新」重新读取。"
+      ],
+      "warnings": [
+        "请先结束当前任务，并完全退出旧版（包括托盘图标），再运行 Setup 安装包覆盖升级。原有任务记录会保留。",
+        "如果之前的导入已经中断，请保留原素材，处理问题后重新导入并核验，再决定是否清理素材卡。",
+        "免安装版适合直接运行；升级已经安装的软件请使用 Setup 安装包。",
+        "Windows 安装包暂未进行数字签名，系统可能显示「未知发布者」。",
+        "本次发布 Windows 10/11 x64 版。macOS 已同步相关代码修复，暂不提供新版安装包。"
+      ],
+      "notes": "改善部分电脑上保存任务记录失败、导致导入中断的问题\n\n- 保存任务记录时，如果文件被其他程序短暂占用，软件会自动等待并重试，减少偶发中断。\n- 如果记录一直无法保存，会说明问题出在任务记录，并提示检查文件占用、权限或磁盘空间，方便排查。已经拷贝的素材会保留。\n- 任务历史暂时读不出来时，会保留原有记录，避免已有任务被新记录覆盖。\n- 改善同时保存多个任务、从列表移除项目时的稳定性，减少记录遗漏或互相覆盖。\n- 文件持续被占用时，不再反复堆积进度保存请求，避免任务迟迟停不下来。\n- 任务历史读取失败时，软件仍可打开并显示原因；处理后可点击「刷新」重新读取。\n\n升级提醒\n- 请先结束当前任务，并完全退出旧版（包括托盘图标），再运行 Setup 安装包覆盖升级。原有任务记录会保留。\n- 如果之前的导入已经中断，请保留原素材，处理问题后重新导入并核验，再决定是否清理素材卡。\n- 免安装版适合直接运行；升级已经安装的软件请使用 Setup 安装包。\n- Windows 安装包暂未进行数字签名，系统可能显示「未知发布者」。\n- 本次发布 Windows 10/11 x64 版。macOS 已同步相关代码修复，暂不提供新版安装包。",
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.30"
+    },
     {
       "version": "1.2.29",
       "publishedAt": "2026-09-09T13:19:57Z",
