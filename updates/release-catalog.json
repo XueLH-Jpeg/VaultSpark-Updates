@@ -4,6 +4,56 @@
   "websiteUrl": "https://xuelh.cn/software/vaultspark",
   "releases": [
     {
+      "version": "1.2.33",
+      "status": "published",
+      "publishedAt": "2026-10-10T11:42:54Z",
+      "platforms": {
+        "win32-x64": {
+          "version": "1.2.33",
+          "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-Windows-x64-Setup.exe",
+          "fileName": "VaultSpark-1.2.33-Windows-x64-Setup.exe",
+          "size": 191465422,
+          "sha256": "b7e2793571257f6e81d172ea48f503ecdcded8efc5aa0925de21c865b4ed2ca9",
+          "checksumUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-Windows-SHA256SUMS.txt",
+          "signed": false,
+          "platform": "Windows 10/11 x64",
+          "status": "published",
+          "publishedAt": "2026-10-10T11:42:54Z",
+          "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33",
+          "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。"
+        },
+        "darwin-arm64": {
+          "version": "1.2.33",
+          "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-arm64.dmg",
+          "fileName": "VaultSpark-1.2.33-arm64.dmg",
+          "size": 188818944,
+          "sha256": "b5ec5d85919518fb413984ff2f6bb98ae264f5787f309f1675821805c58b34c2",
+          "checksumUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-arm64.dmg.sha256.txt",
+          "signed": false,
+          "platform": "macOS · Apple Silicon",
+          "status": "published",
+          "publishedAt": "2026-10-10T11:42:54Z",
+          "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33",
+          "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。"
+        }
+      },
+      "summary": "Windows 与 macOS 同步更新教程和视频转正操作说明",
+      "changes": [
+        "新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。",
+        "教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。",
+        "视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。",
+        "处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。",
+        "Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。"
+      ],
+      "warnings": [
+        "升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。",
+        "Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。",
+        "macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。"
+      ],
+      "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。",
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33"
+    },
+    {
       "version": "1.2.30",
       "status": "published",
       "publishedAt": "2026-09-14T02:14:31Z",
