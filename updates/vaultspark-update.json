@@ -1,21 +1,39 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.30",
-  "notes": "改善部分电脑上保存任务记录失败、导致导入中断的问题\n\n- 保存任务记录时，如果文件被其他程序短暂占用，软件会自动等待并重试，减少偶发中断。\n- 如果记录一直无法保存，会说明问题出在任务记录，并提示检查文件占用、权限或磁盘空间，方便排查。已经拷贝的素材会保留。\n- 任务历史暂时读不出来时，会保留原有记录，避免已有任务被新记录覆盖。\n- 改善同时保存多个任务、从列表移除项目时的稳定性，减少记录遗漏或互相覆盖。\n- 文件持续被占用时，不再反复堆积进度保存请求，避免任务迟迟停不下来。\n- 任务历史读取失败时，软件仍可打开并显示原因；处理后可点击「刷新」重新读取。\n\n升级提醒\n- 请先结束当前任务，并完全退出旧版（包括托盘图标），再运行 Setup 安装包覆盖升级。原有任务记录会保留。\n- 如果之前的导入已经中断，请保留原素材，处理问题后重新导入并核验，再决定是否清理素材卡。\n- 免安装版适合直接运行；升级已经安装的软件请使用 Setup 安装包。\n- Windows 安装包暂未进行数字签名，系统可能显示「未知发布者」。\n- 本次发布 Windows 10/11 x64 版。macOS 已同步相关代码修复，暂不提供新版安装包。",
-  "publishedAt": "2026-09-14T02:14:31Z",
-  "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.30",
+  "version": "1.2.33",
+  "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。",
+  "publishedAt": "2026-10-10T11:42:54Z",
+  "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33",
   "changelogUrl": "https://xuelh.cn/software/vaultspark#changelog",
+  "distribution": "published",
   "platforms": {
     "win32-x64": {
-      "version": "1.2.30",
-      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.30/VaultSpark-1.2.30-Windows-x64-Setup.exe",
-      "fileName": "VaultSpark-1.2.30-Windows-x64-Setup.exe",
-      "size": 190437508,
-      "sha256": "1bc4f5d8580505cf89357edbc59fa1f669a367044139e16e8574828998794d66",
+      "version": "1.2.33",
+      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-Windows-x64-Setup.exe",
+      "fileName": "VaultSpark-1.2.33-Windows-x64-Setup.exe",
+      "size": 191465422,
+      "sha256": "b7e2793571257f6e81d172ea48f503ecdcded8efc5aa0925de21c865b4ed2ca9",
+      "checksumUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-Windows-SHA256SUMS.txt",
       "signed": false,
-      "notes": "改善部分电脑上保存任务记录失败、导致导入中断的问题\n\n- 保存任务记录时，如果文件被其他程序短暂占用，软件会自动等待并重试，减少偶发中断。\n- 如果记录一直无法保存，会说明问题出在任务记录，并提示检查文件占用、权限或磁盘空间，方便排查。已经拷贝的素材会保留。\n- 任务历史暂时读不出来时，会保留原有记录，避免已有任务被新记录覆盖。\n- 改善同时保存多个任务、从列表移除项目时的稳定性，减少记录遗漏或互相覆盖。\n- 文件持续被占用时，不再反复堆积进度保存请求，避免任务迟迟停不下来。\n- 任务历史读取失败时，软件仍可打开并显示原因；处理后可点击「刷新」重新读取。\n\n升级提醒\n- 请先结束当前任务，并完全退出旧版（包括托盘图标），再运行 Setup 安装包覆盖升级。原有任务记录会保留。\n- 如果之前的导入已经中断，请保留原素材，处理问题后重新导入并核验，再决定是否清理素材卡。\n- 免安装版适合直接运行；升级已经安装的软件请使用 Setup 安装包。\n- Windows 安装包暂未进行数字签名，系统可能显示「未知发布者」。\n- 本次发布 Windows 10/11 x64 版。macOS 已同步相关代码修复，暂不提供新版安装包。",
-      "publishedAt": "2026-09-14T02:14:31Z",
-      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.30"
+      "platform": "Windows 10/11 x64",
+      "status": "published",
+      "publishedAt": "2026-10-10T11:42:54Z",
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33",
+      "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。"
+    },
+    "darwin-arm64": {
+      "version": "1.2.33",
+      "url": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-arm64.dmg",
+      "fileName": "VaultSpark-1.2.33-arm64.dmg",
+      "size": 188818944,
+      "sha256": "b5ec5d85919518fb413984ff2f6bb98ae264f5787f309f1675821805c58b34c2",
+      "checksumUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/download/v1.2.33/VaultSpark-1.2.33-arm64.dmg.sha256.txt",
+      "signed": false,
+      "platform": "macOS · Apple Silicon",
+      "status": "published",
+      "publishedAt": "2026-10-10T11:42:54Z",
+      "notesUrl": "https://github.com/XueLH-Jpeg/VaultSpark-Updates/releases/tag/v1.2.33",
+      "notes": "Windows 与 macOS 同步更新教程和视频转正操作说明\n\n- 新手教程与视频转正教程统一为背景压暗、当前控件高亮和旁侧说明卡片。\n- 教程支持上一步、下一步、跳过和重新查看，并保留已完成的教程记录。\n- 视频转正教程可在未添加素材时浏览；实际导入、导出仍由你确认操作。\n- 处理方式统一为“原始画面转正”和“更改方向标记”，转正结果另存为副本，保留原片。\n- Windows 保留原有标题栏、窗口控制、任务记录及安装升级标识。\n\n升级提醒\n- 升级前请结束正在运行的任务并完全退出旧版。Windows 使用 Setup 安装版，macOS 打开 DMG 后将应用拖入 Applications。\n- Windows 安装包未配置 Authenticode 签名；已完成编译、前端界面和包内容校验，尚未在 Windows 实机执行安装、卸载及原生媒体功能测试。\n- macOS 版适用于 Apple Silicon，采用本地 ad-hoc 签名，未做 Apple Developer ID 签名与公证。构建最低目标为 macOS 11，其他系统版本尚未实机验收。"
     }
   }
 }
